@@ -102,7 +102,11 @@ Diferente do modelo clássico "Bronze → Silver → Gold", este projeto adicion
 
 ```text
 fmcg-data-engineering-databricks
- ├── notebooks
+ ├── consolidated_pipeline
+ ├── dashboarding
+ ├── orquestration
+ ├── resources
+ ├── 0_data.rar
  ├── LICENSE
  └── README.md
 ```
@@ -142,10 +146,6 @@ O pipeline completo é automatizado via **Databricks Workflows**, com dependênc
 
 `Staging → Bronze → Silver (Histórico) → Silver (Incremental) → Gold`
 
-<div align="center">
-  <img src="./assets/orchestration/workflow_job.png" alt="Databricks Workflow" width="85%">
-</div>
-
 ---
 
 ## Genie — Consultas em Linguagem Natural
@@ -154,33 +154,6 @@ Configurado o **Databricks Genie** sobre a camada Gold, permitindo que usuários
 
 > "Mostre o total de vendas por região."
 > "Qual divisão teve o maior crescimento no último ano?"
-
----
-
-## Galeria de Imagens
-
-*(Substitua os placeholders abaixo pelos seus próprios prints — arquitetura, dashboards, orquestração e catálogo)*
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center"><b>Visão Geral de Vendas</b></td>
-      <td align="center"><b>Desempenho Regional</b></td>
-    </tr>
-    <tr>
-      <td><img src="./assets/dashboard/sales_overview.png" alt="Sales Dashboard" width="420"></td>
-      <td><img src="./assets/dashboard/regional_performance.png" alt="Region Dashboard" width="420"></td>
-    </tr>
-    <tr>
-      <td align="center"><b>Unity Catalog / Staging</b></td>
-      <td align="center"><b>Orquestração (Workflows)</b></td>
-    </tr>
-    <tr>
-      <td><img src="./assets/catalog/unity_catalog_staging.png" alt="Unity Catalog" width="420"></td>
-      <td><img src="./assets/orchestration/workflow_job.png" alt="Workflow" width="420"></td>
-    </tr>
-  </table>
-</div>
 
 ---
 
