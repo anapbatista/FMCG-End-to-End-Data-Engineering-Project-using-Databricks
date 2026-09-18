@@ -1,4 +1,4 @@
-# Retail-End-to-End-Data-Engineering-Project-using-Databricks-
+# FMCG-End-to-End-Data-Engineering-Project-using-Databricks
 
 <div align="center">
 
