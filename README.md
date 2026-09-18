@@ -28,11 +28,9 @@
 
 ## Sobre o Projeto
 
-Este repositório documenta a construção de um **pipeline de Engenharia de Dados End-to-End**, desenvolvido inteiramente no **Databricks (Free Edition)**, aplicando a **Arquitetura Medallion** (Bronze → Silver → Gold) com uma camada adicional de **Staging** entre a ingestão bruta e a limpeza dos dados.
+Este repositório documenta a construção de um **pipeline de Engenharia de Dados End-to-End**, desenvolvido inteiramente no **Databricks** e **AWS S3**, aplicando a **Arquitetura Medallion** (Bronze → Silver → Gold) com uma camada adicional de **Staging** entre a ingestão bruta e a limpeza dos dados.
 
 O objetivo foi simular um cenário real de negócio — a aquisição de uma empresa menor por uma grande companhia de FMCG — consolidando dados de origens distintas em uma plataforma analítica única, governada pelo **Unity Catalog**, com transações **ACID** via **Delta Lake** e visualização final em **Databricks AI/BI Dashboards**.
-
-> Este projeto foi implementado como exercício prático de aprendizado, inspirado no projeto **"End to End Data Engineering Project using Databricks Free Edition | FMCG Domain"** do canal [**codebasics**](https://www.youtube.com/@codebasics). A configuração do ambiente, o código, a organização do repositório, a camada de Staging adicional e toda a documentação foram desenvolvidos de forma independente para fins de estudo e portfólio.
 
 ---
 
@@ -170,5 +168,5 @@ Configurado o **Databricks Genie** sobre a camada Gold, permitindo que usuários
 
 ---
 
-Projeto implementado como exercício prático de aprendizado, inspirado no projeto **"End to End Data Engineering Project using Databricks Free Edition | FMCG Domain"** do canal [**codebasics**](https://www.youtube.com/@codebasics). Implementação, organização do código, repositório GitHub, camada de Staging adicional e documentação foram desenvolvidos de forma independente para fins de aprendizado e portfólio.
+Projeto implementado como exercício prático de aprendizado, inspirado no projeto **"End to End Data Engineering Project using Databricks Free Edition | FMCG Domain"** do canal no youtube [**codebasics**](https://www.youtube.com/@codebasics). Implementação, organização do código, repositório GitHub, camada de Staging adicional e documentação foram desenvolvidos de forma independente para fins de aprendizado e portfólio.
 
