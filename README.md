@@ -15,13 +15,6 @@
     <i>Pipeline de Engenharia de Dados moderno, escalável e totalmente automatizado, construído no Databricks para processar dados de uma empresa do setor FMCG (bens de consumo de giro rápido), utilizando a Arquitetura Lakehouse (Medallion).</i>
   </p>
 
-  <p align="center">
-    <a href="#sobre-o-projeto">Sobre</a> •
-    <a href="#problema-de-negócio">Problema de Negócio</a> •
-    <a href="#arquitetura">Arquitetura</a> •
-    <a href="#galeria-de-imagens">Galeria</a>
-  </p>
-
 </div>
 
 ---
